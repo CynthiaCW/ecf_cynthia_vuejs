@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- Component nav -->
-    <Navbar />
+  <Navbar />   
     
     <!-- Component main -->
     <router-view/>
@@ -18,7 +18,7 @@ import Footer from "./components/Footer.vue";
 export default {
   name: 'CardHomeView',
   components: {
-    Navbar,
+   Navbar,
     Footer
   }
 }

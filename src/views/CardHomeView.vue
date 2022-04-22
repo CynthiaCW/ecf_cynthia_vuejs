@@ -1,38 +1,14 @@
 <template>
 
-  <div class="container">
-    <!-- Header -->
-    <header id="header">
-      <div class="inner">
-        <!-- Logo -->
-        <h1><a :href="index.html" id="logo">Magic</a></h1>
 
-        <!-- Nav -->
-        <Navbar/>
+<div>
 
-      </div>
-    </header>
-
-    <!-- Banner -->
-    <div id="banner">
-      <h2><strong>Magic Card:</strong> Ma collection</h2>
-    </div>
-  </div>
-
-  <!-- Main Wrapper -->
-
-
-  <!-- Footer Wrapper -->
-
-  <!-- Component <Footer /> -->
+</div>
 
 </template>
 
 <script>
 import axios from "axios";
-
-import Navbar from "../components/Navbar.vue";
-// import Footer from "../components/Footer.vue";
 
 
 export default {
@@ -41,9 +17,8 @@ export default {
         //cardsApi
   }),
   components: {
-    Navbar,
-    //Footer
-},
+
+  },
   methods: {},
   async created() {
     //On va chercher avec Get les DATA DE l'API pour toutes les cards
@@ -56,6 +31,5 @@ export default {
 </script>
 
 <style scoped>
- @import url('../assets/css/card-list'); 
- @import url('../assets/css/main');
+
 </style>

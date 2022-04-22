@@ -1,13 +1,11 @@
 <template>
-    <Navbar />
-    <!-- <Footer />  Fonctionne pas-->
+    <div></div>
 </template>
     
 <script>
 
 import axios from 'axios'
-import Navbar from '@/components/Navbar.vue';
-// import Footer from "@/components/Footer.vue"; Fonctionne pas
+
 
 
 export default {
@@ -17,8 +15,7 @@ export default {
         dataIsLoading: true,
     }),
     components: {
-        Navbar,
-        // Footer Fonctionne pas
+        
     },
     methods: {
     //Methods avec id de la card pour le bouton voir @click EVENT
@@ -39,6 +36,5 @@ export default {
 </script>
 
 <style scoped>
- @import url('../assets/css/card-list'); 
  @import url('../assets/css/main');
 </style>

@@ -24,11 +24,9 @@ export default {
     this.cards = oneCard.data.cards;
   }
 
-
 }
 
 </script>
 <style scoped>
  @import url('../assets/css/card-list'); 
- @import url('../assets/css/main');
 </style>
