@@ -56,6 +56,6 @@ export default {
 </script>
 
 <style scoped>
- @import url('../assets/css/card-list.css'); 
- @import url('../assets/css/main.css');
+ @import url('../assets/css/card-list'); 
+ @import url('../assets/css/main');
 </style>

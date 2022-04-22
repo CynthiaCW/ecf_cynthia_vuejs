@@ -8,7 +8,7 @@ import axios from 'axios'
 const API = 'https://api.magicthegathering.io/v1/cards/'
 
 export default {
-
+    
     name: 'DetailsCardView',
     data: () => ({
         cards: {}
@@ -29,6 +29,6 @@ export default {
 
 </script>
 <style scoped>
- @import url('../assets/css/card-list.css'); 
- @import url('../assets/css/main.css');
+ @import url('../assets/css/card-list'); 
+ @import url('../assets/css/main');
 </style>

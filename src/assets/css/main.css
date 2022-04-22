@@ -86,7 +86,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #303238 url("../css/images/bg01.png");
+		background: #303238 url("images/bg01.png");
 	}
 
 		body.is-preload * {
@@ -1392,7 +1392,7 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background: url("../css/images/bg01.png");
+			background: url("images/bg01.png");
 			width: 100%;
 			height: 100%;
 			opacity: 0.75;
@@ -1848,7 +1848,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("../css/images/bg01.png"), url("../images/header.jpg");
+		background: url("images/bg01.png"), url("images/header.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;

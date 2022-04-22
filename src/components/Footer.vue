@@ -17,11 +17,11 @@
 
 <script>
 export default {
-  name: "NavBar",
+  name: "FooterComponent",
 };
 </script>
 
 <style scoped>
-@import url("../assets/css/card-list.css");
+
  @import url("../assets/css/main.css"); 
 </style>

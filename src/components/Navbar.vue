@@ -3,7 +3,7 @@
       <!-- Nav -->
       <nav id="nav">
         <ul>
-          <li class="current_page_item"><router-link to="home">Home</router-link></li>
+          <li class="current_page_item"><router-link to="CardHomeView">Home</router-link></li>
           <li><router-link to="CardsCollection">Collection</router-link></li>
         </ul>
       </nav>
@@ -12,11 +12,10 @@
 
 <script>
 export default {
-  name: "NavBar",
+  name: "NavbarComponent",
 };
 </script>
 
 <style scoped>
-@import url("../assets/css/card-list.css");
  @import url("../assets/css/main.css"); 
 </style>
