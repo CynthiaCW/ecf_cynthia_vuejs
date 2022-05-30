@@ -11,6 +11,9 @@ div.card-title{
     flex:6
 }
 
+div.card-img{
+    flex:6
+}
 div.card-action{
     flex:1
 }
