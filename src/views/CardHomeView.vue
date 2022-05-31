@@ -56,7 +56,7 @@
 import axios from "axios";
 
 export default {
-  name: "CardHomeView",
+  name: "CardsCollection",
   data: () => ({
     cards: [],
   }),

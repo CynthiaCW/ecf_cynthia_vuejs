@@ -19,7 +19,7 @@ const routes = [
   },
 
   {
-    path: '/CardsCollection/:cardId',
+    path: '/card/:cardId',
     name: 'CardDetails',
 
     component: () => import('../views/DetailsCardView.vue')
